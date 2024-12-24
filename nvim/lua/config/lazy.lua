@@ -20,6 +20,7 @@ require("lazy").setup({
                 colorscheme = "catppuccin",
             },
         },
+        { import = "lazyvim.plugins.extras.ui.alpha" },
         { import = "plugins" },
     },
     defaults = {
@@ -32,3 +33,4 @@ require("lazy").setup({
     install = { colorscheme = { "catppuccin" } },
     checker = { enabled = false },
 })
+

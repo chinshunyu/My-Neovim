@@ -1,7 +1,13 @@
 return {
   {
     "LintaoAmons/bookmarks.nvim",
-    -- branch = "dev",
-    -- dir = "/Volumes/t7ex/Documents/oatnil/beta/bookmarks.nvim",
+    event = "VeryLazy",
+    dependencies = {
+      "kkharji/sqlite.lua",
+    },
+    config = function()
+      require("bookmarks").setup()
+    end
   },
 }
+
