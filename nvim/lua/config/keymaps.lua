@@ -44,8 +44,8 @@ local command_keymappings = {
 
 	["Scratch"] = "<M-C-n>",
 	["ScratchOpen"] = "<M-C-o>",
-	["FindInProject"] = { modes = "n,v", keys = "<C-f>f" },
-	["FindFileInDir"] = { modes = "n,v", keys = "<C-f>d" },
+	"FindInProject"] = { modes = "n,v", keys = "<C-f>f" },
+    ["FindFileInDir"] = { modes = "n,v", keys = "<C-f>d" },
 	["GrepInDir"] = { modes = "n,v", keys = "<C-f>g" },
 	["SearchOrReplace"] = { modes = "n,v", keys = "<C-M-f>" },
 	["Rename"] = "<leader>rn",
